@@ -1,0 +1,23 @@
+# Raw data — regenerate with convert.py
+raw-*/
+converted-raw-*/
+raw-train-arrays*/
+raw-test-arrays*/
+raw-train-arrays-2*/
+
+# Data we download from Xeno-Canto
+data/
+clips/
+
+# Python
+__pycache__/
+*.pyc
+birdenv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
