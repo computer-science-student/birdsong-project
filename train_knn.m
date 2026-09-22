@@ -51,3 +51,5 @@ fprintf('Accuracy: %.2f%%\n', acc*100);
 figure;
 confusionchart(Y(idxTest), pred);
 title(sprintf('KNN (k=%d) — accuracy %.1f%%', k, acc*100));
+
+
